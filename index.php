@@ -32,6 +32,7 @@
                     <div class="col-sm-6">
                         <label class="form-label">Civilité</label>
                         <select class="form-select" id="civ" required>
+                            <option value="">Choisir la civilité</option>
                             <option>Homme</option>
                             <option>Femme</option>
                             <option>Autre</option>
