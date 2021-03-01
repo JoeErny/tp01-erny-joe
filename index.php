@@ -51,7 +51,7 @@
                     </div>
 
                     <div class="col-sm-6">
-                        <input type="submit" class="form-control" value="Envoyer le formulaire">
+                        <input type="submit" class="btn-lg btn-primary" value="Envoyer le formulaire">
                     </div>
                 </div>
             </form>
