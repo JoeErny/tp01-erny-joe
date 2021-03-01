@@ -24,30 +24,31 @@
                 <div class="col-sm-6">
                     Prénom : <input type="text" name="prenom" value="" />
                 </div>
-            </div>
-            <div>
-                Nom : <input type="text" name="nom" value="" />
-            </div>
-            <div>
-                <p>Civilité :</p>
-                <input type="radio" id="mr" name="civilite" value="mr">
-                <label for="mr">Monsieur</label>
-                <input type="radio" id="mme" name="civilite" value="mme">
-                <label for="mme">Madame</label>
-                <input type="radio" id="autre" name="civilite" value="autre" checked>
-                <label for="autre">Autre</label>
-            </div>
-            <div>
-                Mot de passe : <input id="pwd1" type="password" name="passe" value="" />
-            </div>
-            <div>
-                Valider le mot de passe : <input id="pwd2" type="password" name="passe" value="" />
-            </div>
-            <div>
-                Code postal : <input type="text" name="nom" value="" />
-            </div>
-            <div>
-                <input type="submit" value="Envoyer le formulaire">
+
+                <div class="col-sm-6">
+                    Nom : <input type="text" name="nom" value="" />
+                </div>
+                <div class="col-sm-6">
+                    <p>Civilité :</p>
+                    <input type="radio" id="mr" name="civilite" value="mr">
+                    <label for="mr">Monsieur</label>
+                    <input type="radio" id="mme" name="civilite" value="mme">
+                    <label for="mme">Madame</label>
+                    <input type="radio" id="autre" name="civilite" value="autre" checked>
+                    <label for="autre">Autre</label>
+                </div>
+                <div class="col-sm-6">
+                    Mot de passe : <input id="pwd1" type="password" name="passe" value="" />
+                </div>
+                <div class="col-sm-6">
+                    Valider le mot de passe : <input id="pwd2" type="password" name="passe" value="" />
+                </div>
+                <div class="col-sm-6">
+                    Code postal : <input type="text" name="nom" value="" />
+                </div>
+                <div class="col-sm-6">
+                    <input type="submit" value="Envoyer le formulaire">
+                </div>
             </div>
         </form>
 
