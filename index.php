@@ -21,14 +21,15 @@
         <form class="needs-validation" method="post" onsubmit="verifyPasswords()">
             <div class="row g-2">
                 <div class="col-sm-6">
-                    Prénom : <input type="text" name="prenom" value="" />
+                    <label class="form-label">Préom</label>
+                    <input type="text" name="prenom" value="" />
                 </div>
 
                 <div class="col-sm-6">
-                    Nom : <input type="text" name="nom" value="" />
+                    <label class="form-label">Nom</label>
+                    <input type="text" name="nom" value="" />
                 </div>
                 <div class="col-sm-6">
-                    <p>Civilité :</p>
                     <input type="radio" id="mr" name="civilite" value="mr">
                     <label for="mr">Monsieur</label>
                     <input type="radio" id="mme" name="civilite" value="mme">
@@ -37,13 +38,16 @@
                     <label for="autre">Autre</label>
                 </div>
                 <div class="col-sm-6">
-                    Mot de passe : <input id="pwd1" type="password" name="passe" value="" />
+                <label class="form-label">Mot de passe : </label>
+                <input id="pwd1" type="password" name="passe" value="" />
                 </div>
                 <div class="col-sm-6">
-                    Valider le mot de passe : <input id="pwd2" type="password" name="passe" value="" />
+                <label class="form-label">Valider le mot de passe : </label>
+                 <input id="pwd2" type="password" name="passe" value="" />
                 </div>
                 <div class="col-sm-6">
-                    Code postal : <input type="text" name="nom" value="" />
+                <label class="form-label">Code postal : </label>
+                <input type="text" name="nom" value="" />
                 </div>
                 <div class="col-sm-6">
                     <input type="submit" value="Envoyer le formulaire">
