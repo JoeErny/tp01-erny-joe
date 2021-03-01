@@ -21,7 +21,7 @@
         <form class="needs-validation" method="post" onsubmit="verifyPasswords()">
             <div class="row g-3">
                 <div class="col-sm-6">
-                    <label class="form-label">Préom</label>
+                    <label class="form-label">Prénom</label>
                     <input type="text" name="prenom" value="" />
                 </div>
 
@@ -30,26 +30,25 @@
                     <input type="text" name="nom" value="" />
                 </div>
 
-                <label class="form-label">Civilité: </label>
                 <div class="col-sm-6">
-                    <input type="radio" id="mr" name="civilite" value="mr">
-                    <label for="mr">Monsieur</label>
-                    <input type="radio" id="mme" name="civilite" value="mme">
-                    <label for="mme">Madame</label>
-                    <input type="radio" id="autre" name="civilite" value="autre" checked>
-                    <label for="autre">Autre</label>
+                    <label class="form-label">Civilité</label>
+                    <select class="form-select" id="civ" required>
+                        <option>Homme</option>
+                        <option>Femme</option>
+                        <option>Autre</option>
+                    </select>
                 </div>
                 <div class="col-sm-6">
                     <label class="form-label">Mot de passe : </label>
-                    <input id="pwd1" type="password" name="passe" value="" />
+                    <input id="pwd1" type="password" name="passe" minlength="8" maxlength="20" value="" />
                 </div>
                 <div class="col-sm-6">
                     <label class="form-label">Valider le mot de passe : </label>
-                    <input id="pwd2" type="password" name="passe" value="" />
+                    <input id="pwd2" type="password" name="passe" minlength="8" maxlength="20" value="" />
                 </div>
                 <div class="col-sm-6">
                     <label class="form-label">Code postal : </label>
-                    <input type="text" name="nom" value="" />
+                    <input type="text" name="nom" value="" minlength="5" maxlength="5" />
                 </div>
                 <div class="col-sm-6">
                     <input type="submit" value="Envoyer le formulaire">
