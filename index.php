@@ -42,6 +42,14 @@
                         <input type="text" name="nom" class="form-control" value="" minlength="5" maxlength="5" />
                     </div>
                     <div class="col-sm-6">
+                        <label class="form-label">Mail : </label>
+                        <input type="text" name="mail" class="form-control" value="" minlength="5" maxlength="20" />
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="form-label">Login : </label>
+                        <input type="text" name="login" class="form-control" value="" minlength="5" maxlength="20" />
+                    </div>
+                    <div class="col-sm-6">
                         <label class="form-label">Mot de passe : </label>
                         <input id="pwd1" type="password" class="form-control" name="passe" minlength="8" maxlength="20" value="" />
                     </div>
