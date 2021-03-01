@@ -29,8 +29,9 @@
                     <label class="form-label">Nom</label>
                     <input type="text" name="nom" value="" />
                 </div>
+
+                <label class="form-label">Civilité: </label>
                 <div class="col-sm-6">
-                    <label class="form-label">Mot de passe : </label>
                     <input type="radio" id="mr" name="civilite" value="mr">
                     <label for="mr">Monsieur</label>
                     <input type="radio" id="mme" name="civilite" value="mme">
