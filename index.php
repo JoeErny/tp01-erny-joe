@@ -21,12 +21,12 @@
                 <div class="row g-3">
                     <div class="col-sm-6">
                         <label class="form-label">Prénom</label>
-                        <input type="text" name="prenom" value="" />
+                        <input class="form-control" type="text" name="prenom" value="" />
                     </div>
 
                     <div class="col-sm-6">
                         <label class="form-label">Nom</label>
-                        <input type="text" name="nom" value="" />
+                        <input type="text" class="form-control" name="nom" value="" />
                     </div>
 
                     <div class="col-sm-6">
@@ -39,18 +39,18 @@
                     </div>
                     <div class="col-sm-6">
                         <label class="form-label">Mot de passe : </label>
-                        <input id="pwd1" type="password" name="passe" minlength="8" maxlength="20" value="" />
+                        <input id="pwd1" type="password" class="form-control" name="passe" minlength="8" maxlength="20" value="" />
                     </div>
                     <div class="col-sm-6">
                         <label class="form-label">Valider le mot de passe : </label>
-                        <input id="pwd2" type="password" name="passe" minlength="8" maxlength="20" value="" />
+                        <input id="pwd2" type="password" class="form-control" name="passe" minlength="8" maxlength="20" value="" />
                     </div>
                     <div class="col-sm-6">
                         <label class="form-label">Code postal : </label>
-                        <input type="text" name="nom" value="" minlength="5" maxlength="5" />
+                        <input type="text" name="nom" class="form-control" value="" minlength="5" maxlength="5" />
                     </div>
                     <div class="col-sm-6">
-                        <input type="submit" value="Envoyer le formulaire">
+                        <input type="submit" class="form-control" value="Envoyer le formulaire">
                     </div>
                 </div>
             </form>
