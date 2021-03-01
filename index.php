@@ -18,7 +18,6 @@
     </header>
 
     <div class="container" style="text-align: center; margin: auto; margin-left: auto;margin-right: auto;  display: flex; justify-content: center;">
-        <h1>Formulaire :</h1>
         <form class="needs-validation" method="post" onsubmit="verifyPasswords()">
             <div class="row g-2">
                 <div class="col-sm-6">
